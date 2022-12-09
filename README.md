@@ -37,7 +37,7 @@ All the R functions supporting the simulations are contained in the “funcs” 
 
 All the R scripts to reproduce the numeric and realistic simulations can be found in the “simulations” folder.
 
-All the R scripts to reproduce the data analysis results are summarized in the “Data analysis” folder.
+All the R scripts to reproduce the data analysis results are summarized in the “data analysis” folder.
 
 The spatially resolved transcriptomic data used in the data analysis can be downloaded from the links provided in the *Data Availability Statement* in the manuscript.
 
