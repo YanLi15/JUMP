@@ -8,5 +8,4 @@ Depends: R (>= 4.1.2), splines
 Description: The package implements a computationally scalable FDR control procedure for replicability analysis based on maximum p-values. The method is developed to identify replicable spatially variable genes from two spatially resolved transcriptomics datasets measured on different samples for the same tissue type. 
 License: GPL>=2
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.2.3

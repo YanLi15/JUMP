@@ -49,10 +49,7 @@ xi.est <- function(pvals1, pvals2, lambda = seq(0.01, 0.8, 0.01)){
 
 #' False discovery rate control for replicability analysis
 #'
-#' The function implements an FDR control procedure for replicability analysis of spatially
-#' variable genes in two spatially resolved transcriptomic studies. The maximum p-value
-#' statistic is calculated from the paired p-values, and the threshold for rejection of
-#' replicability null hypotheses is estimated using a step-up procedure.
+#' The function implements an FDR control procedure for replicability analysis of spatially variable genes in two spatially resolved transcriptomic studies. The maximum p-value statistic is calculated from the paired p-values, and the threshold for rejection of replicability null hypotheses is estimated using a step-up procedure.
 #'
 #' @param pvals1 a numeric vector of the p-values from study 1
 #' @param pvals2 a numeric vector of the p-values from study 2
@@ -64,6 +61,7 @@ xi.est <- function(pvals1, pvals2, lambda = seq(0.01, 0.8, 0.01)){
 #' \item{jump.thr} the threshold to control FDR of replicability null hypotheses estimated for the maximum p-value
 #'
 #' @export
+#' @author Yan Li
 
 JUMP <- function(pvals1, pvals2, alpha = 0.05, lambda = seq(0.01, 0.8, 0.01)){
   xi.hat <- xi.est(pvals1, pvals2, lambda)

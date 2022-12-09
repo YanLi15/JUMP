@@ -21,8 +21,8 @@ a list with the elements
 \item{jump.thr} the threshold to control FDR of replicability null hypotheses estimated for the maximum p-value
 }
 \description{
-The function implements an FDR control procedure for replicability analysis of spatially
-variable genes in two spatially resolved transcriptomic studies. The maximum p-value
-statistic is calculated from the paired p-values, and the threshold for rejection of
-replicability null hypotheses is estimated using a step-up procedure.
+The function implements an FDR control procedure for replicability analysis of spatially variable genes in two spatially resolved transcriptomic studies. The maximum p-value statistic is calculated from the paired p-values, and the threshold for rejection of replicability null hypotheses is estimated using a step-up procedure.
+}
+\author{
+Yan Li
 }
