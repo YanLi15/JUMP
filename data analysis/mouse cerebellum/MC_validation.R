@@ -27,7 +27,7 @@ dataset1 <- data.frame(value = c(mi_jump_only1, mi_all1), group = factor1)
 par(mar = c(3, 4.5, 1, 1))
 boxplot(value ~ group, dataset1, col = c("antiquewhite1", "lightSalmon"), 
         xlab = NULL, ylab = "Moran's I statistics",outline = FALSE,
-        cex.axis = 1.4, cex.lab = 1.6) # 4.5 * 8 inches
+        cex.axis = 1.4, cex.lab = 1.6) # 5 * 7.5 inches
 
 ## MI based on Slide-seqV2 data
 stat.res2 <- corrValue(counts2, location2)
@@ -44,7 +44,7 @@ dataset2 <- data.frame(value = c(mi_jump_only2, mi_all2), group = factor2)
 par(mar = c(3, 4.5, 1, 1))
 boxplot(value ~ group, dataset2, col = c("antiquewhite1", "lightSalmon"), 
         xlab = NULL, ylab = "Moran's I statistics",outline = FALSE,
-        cex.axis = 1.4, cex.lab = 1.7) # 4.8 * 8.4
+        cex.axis = 1.4, cex.lab = 1.7) # 5 * 7.5
 
 save(stat.res1, stat.res2, file = "./data analysis/mouse cerebellum/MC_MI.RData")
 
